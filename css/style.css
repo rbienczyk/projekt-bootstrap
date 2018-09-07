@@ -1,0 +1,303 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section .section-header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section .section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+section .section-caption {
+    font-family: 'Droid Serif', sans-serif;
+}
+
+#main-nav a.navbar-brand {
+    color: #fff;
+    font-family: 'Droid Serif', sans-serif;
+    font-size: 2em;
+}
+
+#main-nav .nav-item a {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main-nav .nav-item a:hover {
+    color: #0ed8d6;
+}
+
+#main-nav.scrolled {
+    transition: all 1s;
+    background-color: rgba(14, 216, 214, 0.5);
+}
+
+#main-nav {
+    transition: all 1s;
+}
+
+#main-header {
+    background-image: url(../img/header/pictures_on_the_wall.jpg);
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#main-header .header-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+}
+
+
+#main-header .header-content h2 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 3em;
+}
+
+#main-header .header-content .read-more {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0ed8d6;
+    color: #fff;
+    border: 1px solid #0ed8d6;
+    font-size: 11px;
+    padding: 13px 30px;
+    border-radius: 2px;
+}
+
+#main-header .header-content .read-more:hover {
+    background-color: #fff;
+    color: #0ed8d6;
+
+}
+
+#services .services-content .services-text h2,
+figcaption {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#services .services-content .services-icons .fa {
+    font-size: 3em;
+    background-color: #0ed8d6;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.3s;
+    border: 1px solid #0ed8d6;
+    height: 70px;
+    width: 70px;
+    line-height: 40px;
+}
+
+#services .services-content .services-icons .fa:before {
+    font-size: 0.8em;
+}
+
+#services .services-content .services-icons .fa:hover {
+    background-color: #fff;
+    color: #0ed8d6;
+    transform: rotateZ(360deg);
+}
+
+#portfolio {
+    background-color: #f7f7f7;
+}
+
+#portfolio .portfolio-gallery .gallery-content {
+    margin: 10px;
+    background-color: #fff;
+    padding: 0;
+}
+
+#portfolio .portfolio-gallery .gallery-content h3 {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #000;
+    text-align: center;
+}
+
+#portfolio .portfolio-gallery .gallery-content p {
+    margin-bottom: 20px;
+    font-family: 'Droid Serif', sans-serif;
+    text-align: center;
+}
+
+#portfolio .portfolio-gallery .photo {
+    background-position: center;
+    background-size: 150%;
+    height: 285px;
+    transition: all 1s;
+}
+
+#portfolio .portfolio-gallery .photo:hover {
+    background-size: 250%;
+}
+
+#portfolio .portfolio-gallery .gallery-content .photo1 {
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+#portfolio .portfolio-gallery .gallery-content .photo2 {
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+
+#portfolio .portfolio-gallery .gallery-content .photo3 {
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#portfolio .portfolio-gallery .gallery-content .photo4 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+#portfolio .portfolio-gallery .gallery-content .photo5 {
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+#portfolio .portfolio-gallery .gallery-content .photo6 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+#portfolio .portfolio-gallery .photo .photo-mask {
+    background-color: rgba(14, 216, 214, 0.5);
+    height: 100%;
+    box-sizing: border-box;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#portfolio .portfolio-gallery .photo .photo-mask:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-gallery .photo .photo-mask .photo-item {
+    height: 100%;
+}
+
+#portfolio .portfolio-gallery .photo .photo-mask .photo-item .fa {
+    color: #fff;
+    font-size: 3em;
+}
+
+#team .team-content .face-photo img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+#team .team-content .face-text p {
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+}
+
+.social-icons .fa {
+    background-color: #222;
+    border-radius: 50%;
+    font-size: 2em;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.social-icons .fa:hover {
+    background-color: #0ed8d6;
+}
+
+.social-icons .fa:before {
+    font-size: 0.5em;
+}
+
+#contact {
+    background-image: url(../img/footer/world-map.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 120vh;
+
+}
+
+#contact {
+    color: #fff;
+}
+
+#contact h2 {
+    color: #fff;
+}
+
+#contact .contact-content .left-side {
+    height: 150px;
+}
+
+#contact .contact-content .left-side input {
+    border-radius: 2px;
+    border: none;
+    height: 40px;
+}
+
+#contact .contact-content .right-side textarea {
+    height: 150px;
+    border-radius: 2px;
+    border: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+
+#contact .contact-content .btn input[type='submit'] {
+    background-color: #0ed8d6;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    padding: 13px 20px;
+}
+
+#contact .contact-content .btn input[type='submit']:hover {
+    background-color: #fff;
+    color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+}
+
+#footer {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 10px;
+}
+
+#footer .social-icons .fa {
+    width: 30px;
+    height: 30px;
+    font-size: 2em;
+    padding-left: 7px;
+    line-height: 30px;
+
+}
+
+#footer .social-icons .fa:before {
+    font-size: 1em;
+}
